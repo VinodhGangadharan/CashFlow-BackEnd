@@ -24,7 +24,8 @@ const app = express();
 
 // use the cors middleware
 app.use(cors({
-    origin: 'http://localhost:5173',
+    //origin: 'http://localhost:5173',
+    origin: 'https://cashflowzen.netlify.app',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
